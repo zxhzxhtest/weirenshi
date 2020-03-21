@@ -22,7 +22,7 @@ MenuService menuService;
     @GetMapping("/menu")
     public List<Menu> getMenusByHrId(){
 
-        return menuService.getMenuByHrId();
+        return menuService.getMenusByHrId();
     }
 
 }
